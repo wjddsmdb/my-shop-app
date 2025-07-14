@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #FFF9F0;
+  color: #000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.navItem {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background: red;
+  color: #000;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+
+
+/* Header.module.css 또는 Header.css */
+
+.cart-count {
+  background-color: red;
+  color: #000;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 999px;
+  margin-left: 4px;
+}
